@@ -1,0 +1,11 @@
+# Coq build artefacts
+*.glob
+*.vd
+*.v.d
+*.vo
+*.vo.aux
+.*.aux
+
+# fresh Makefile can be always generated _CoqProject
+Makefile
+Makefile.bak
