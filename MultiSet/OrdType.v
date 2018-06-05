@@ -33,4 +33,6 @@ Module Type OrdType.
   Qed.
   *)
 
+  Parameter linearity : forall x y, x = y \/ lt x y \/ lt y x.
+
 End OrdType.
